@@ -19,9 +19,9 @@ class m161219_104418_comment extends CDbMigration
 				'comment_description' => 'int(255)',
 				'status' => 'TINYINT(1)',
 				'PRIMARY KEY (id)',
-			),
+				),
 			'ENGINE=InnoDB'
-		);
+			);
 	}
 
 	public function safeDown()

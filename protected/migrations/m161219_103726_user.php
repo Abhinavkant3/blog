@@ -13,9 +13,9 @@ class m161219_103726_user extends CDbMigration {
 				'created_at' => 'int(11)',
 				'updated_at' => 'int(11)',
 				'PRIMARY KEY (id)',
-			),
+				),
 			'ENGINE=InnoDB'
-		);
+			);
 	}
 
 	public function safeDown() {

@@ -21,9 +21,9 @@ class m161219_104033_post extends CDbMigration
 				'status' => 'TINYINT(1)',
 				'no_of_views' => 'int(11)',
 				'PRIMARY KEY (id)',
-			),
+				),
 			'ENGINE=InnoDB'
-		);
+			);
 	}
 
 	public function safeDown()

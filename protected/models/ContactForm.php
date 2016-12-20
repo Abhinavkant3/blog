@@ -25,7 +25,7 @@ class ContactForm extends CFormModel
 			array('email', 'email'),
 			// verifyCode needs to be entered correctly
 			array('verifyCode', 'captcha', 'allowEmpty'=>!CCaptcha::checkRequirements()),
-		);
+			);
 	}
 
 	/**
@@ -37,6 +37,6 @@ class ContactForm extends CFormModel
 	{
 		return array(
 			'verifyCode'=>'Verification Code',
-		);
+			);
 	}
 }

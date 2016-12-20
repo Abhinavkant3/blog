@@ -1,6 +1,6 @@
 <?php
 return array (
-  'template' => 'default',
+  'template' => 'kickass',
   'connectionId' => 'db',
   'tablePrefix' => '',
   'modelPath' => 'application.models',
